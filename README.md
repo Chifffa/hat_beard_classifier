@@ -13,7 +13,21 @@ There are `HatBeardClassifier` and `SimpleFaceDetector` classes provided.
 
 See `main.py` as example of using these classes.
 
-### 1. Video processing
+### 1. Installing
+
+Install **Python 3.x**.
+
+Clone repository and cd to project directory:
+```shell
+git clone https://github.com/Chifffa/hat_beard_classifier.git
+cd hat_beard_classifier
+```
+Install dependencies:
+```shell
+pip install -r requirements.txt
+```
+
+### 2. Video processing
 Run this to detect all faces in webcam `0` and classify them:
 ```shell
 python main.py -v 0
@@ -24,7 +38,7 @@ python main.py -v path/to/video/file.avi
 ```
 Webcam/video will be shown frame-by-frame with all found and classified faces. Press `q` to stop and exit.
 
-### 2. Image processing
+### 3. Image processing
 Run this to detect all faces in images in folder `image_folder` and classify them:
 ```shell
 python main.py --images path/to/image_folder
@@ -36,7 +50,7 @@ python main.py --images path/to/image_folder --no_detector
 Processed images will be shown frame-by-frame with all found and classified faces. Press any key to
 continue to next image or press `q` to exit.
 
-### 3. Prediction examples:
+### 4. Prediction examples:
 
 ![example_1.png](examples_for_github/example_1.png)
 ![example_2.png](examples_for_github/example_2.png)
