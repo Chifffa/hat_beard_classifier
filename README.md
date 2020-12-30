@@ -35,3 +35,9 @@ python main.py --images path/to/image_folder --no_detector
 ```
 Processed images will be shown frame-by-frame with all found and classified faces. Press any key to
 continue to next image or press `q` to exit.
+
+### 3. Prediction examples:
+
+![example_1.png](examples_for_github/example_1.png)
+![example_2.png](examples_for_github/example_2.png)
+![example_3.png](examples_for_github/example_3.png)
